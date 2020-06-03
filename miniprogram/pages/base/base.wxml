@@ -1,0 +1,13 @@
+<view>{{msg}}</view>
+<image src="{{img}}"></image>
+<view wx:for="{{arr}}" wx:key="index">
+  {{index}} {{item}}
+</view>
+<view wx:for="{{list}}" wx:key="index">
+  {{index}} {{item.name}} {{item.age}}
+</view>
+
+<view wx:if="{{isLogin}}">Jack</view>
+<view wx:else>请登录</view>
+
+<view hidden='{{!isLogin}}'>Hidden</view>
