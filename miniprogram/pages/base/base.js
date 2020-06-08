@@ -22,7 +22,22 @@ Page({
         age: 22
       }
     ],
-    isLogin: true
+    isLogin: true,
+    count: 0
+  },
+
+  onTapHandler: function(){
+    this.setData({
+      count: this.data.count + 1
+    });
+  },
+
+  onTapBoxHandler: function(){
+    console.log("box click");
+  },
+
+  onTapChildHandler: function(){
+    console.log("child click");
   },
 
   /**
