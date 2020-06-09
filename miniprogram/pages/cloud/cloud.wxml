@@ -1,2 +1,4 @@
-<!--miniprogram/pages/cloud/cloud.wxml-->
-<text>miniprogram/pages/cloud/cloud.wxml</text>
+<button bindtap="insert">插入数据</button>
+<button bindtap="update">更新数据</button>
+<button bindtap="search">查找数据</button>
+<button bindtap="delete">删除数据</button>
